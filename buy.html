@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Nova Snacks · Buy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-buy-page>
+    <header>
+        <nav class="site-nav" aria-label="Main">
+            <a class="logo" href="./index.html">Nova Snacks</a>
+            <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav-buy" aria-label="Open menu">
+                <span class="nav-toggle-bar" aria-hidden="true"></span>
+                <span class="nav-toggle-bar" aria-hidden="true"></span>
+                <span class="nav-toggle-bar" aria-hidden="true"></span>
+            </button>
+            <ul id="primary-nav-buy" class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html#products">Products</a></li>
+                <li><a href="./index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="buy-main">
+        <section class="buy-hero reveal">
+            <h1 id="buy-title">Chocolate Truffles</h1>
+            <p class="buy-tagline">Sugar-free, worry-free, everyone friendly</p>
+        </section>
+        <section class="buy-product reveal" aria-labelledby="buy-title">
+            <div class="buy-visual">
+                <img id="buy-image" src="imgs/Bolitas.jpeg" alt="Chocolate Truffles" width="640" height="480">
+            </div>
+            <div class="buy-details">
+                <p id="buy-price" class="buy-price">$7</p>
+                <img class="buy-rating" src="imgs/5stars.png" alt="" width="120" height="24">
+                <div class="qty-row">
+                    <span class="qty-label" id="qty-label">Quantity</span>
+                    <div class="qty-controls" role="group" aria-labelledby="qty-label">
+                        <button type="button" id="qty-down" class="qty-btn" aria-label="Decrease quantity">−</button>
+                        <input id="qty-input" class="qty-input" type="number" min="1" max="99" value="1" inputmode="numeric" aria-label="Quantity">
+                        <button type="button" id="qty-up" class="qty-btn" aria-label="Increase quantity">+</button>
+                    </div>
+                </div>
+                <button type="button" id="buy-submit" class="buy-submit">Add to cart</button>
+            </div>
+        </section>
+    </main>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="site.js" defer></script>
+</body>
+</html>
