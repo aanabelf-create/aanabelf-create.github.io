@@ -83,7 +83,7 @@
         title: 'Chocolate Truffles (1 box)',
         price: '$14',
         image: 'imgs/Bolitas.jpeg',
-        alt: 'Chocolate Truffles',
+        alt: 'Chocolate Truffles (1 box)',
       },
       crunch: {
         title: 'Comet Crunch',
