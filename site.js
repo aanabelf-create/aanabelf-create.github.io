@@ -80,8 +80,8 @@
         alt: 'Stellar Sticks snack',
       },
       truffles: {
-        title: 'Chocolate Truffles',
-        price: '$7',
+        title: 'Chocolate Truffles (1 box)',
+        price: '$14',
         image: 'imgs/Bolitas.jpeg',
         alt: 'Chocolate Truffles',
       },
